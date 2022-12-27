@@ -27,6 +27,6 @@ public class StringMethods {
         System.out.println(name.startsWith("Ha"));
         System.out.println(name.endsWith("ry"));
         System.out.println(name.charAt(4));
-
+        System.out.println(name.indexOf(y));
     }
 }
