@@ -1,9 +1,10 @@
 public class StringMethods {
     public static void main(String[] args) {
-        // String name = new String("Harry");
+        //   index -   012345
         String name = "Harry";
+        
+        // String name = new String("Harry");
         // System.out.println(name);
-
         // int a = 6;
         // float b = 5.6454f;
         // %d - format specifier,
@@ -20,5 +21,7 @@ public class StringMethods {
         System.out.println(name.toUpperCase());
         String nonTrimmedString = "     Trimmed String   ";
         System.out.println(nonTrimmedString.trim());
+        System.out.println(name.substring(3));
+        System.out.println(name.substring(1,4));
     }
 }
