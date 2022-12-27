@@ -1,2 +1,5 @@
+# Ignore this file on commiting
+.gitignore
+
 # Ignore Log Files
 .class
