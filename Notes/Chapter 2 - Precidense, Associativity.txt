@@ -1,0 +1,10 @@
+Precedence of * is higher than that of - .
+Hence, the multiplication is performed before subtraction,
+and the value of myInt will be 4.
+
+Associativity specifies the order in which operators are executed,
+which can be left to right or right to left.
+For example, in the phrase a = b = c = 8,
+the assignment operator is used from right to left.
+It means that the value 8 is assigned to c,
+then c is assigned to b, and at last b is assigned to a.
