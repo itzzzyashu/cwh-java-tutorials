@@ -30,5 +30,6 @@ public class StringMethods {
         System.out.println(name.indexOf("y"));
         System.out.println(name.indexOf(3, "r"));
         System.out.println(name.lastIndexOf("rry", 4));
+        System.out.println(name.equals("Harry"));
     }
 }
