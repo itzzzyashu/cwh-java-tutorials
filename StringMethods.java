@@ -1,10 +1,10 @@
 public class StringMethods {
     public static void main(String[] args) {
+        // String name = new String("Harry");
         //str index -  012345
         String name = "Harry";
         //lastIndex - 543210
-        String nonTrimmedString = "     Trimmed String   ";
-        // String name = new String("Harry");
+        String nonTrimmedString = "   Trimmed String   ";
         System.out.println(name);
         int a = 6;
         float b = 5.6454f;
@@ -14,7 +14,7 @@ public class StringMethods {
         // %c for char,
         // %s for string.
         System.out.printf("%d / %f", a,b);
-        or
+        // or
         System.out.format("%d / %f", a,b);
         System.out.println(name);
         System.out.println(name.length());
@@ -28,8 +28,9 @@ public class StringMethods {
         System.out.println(name.endsWith("ry"));
         System.out.println(name.charAt(4));
         System.out.println(name.indexOf("y"));
-        System.out.println(name.indexOf(3, "r"));
+        System.out.println(name.indexOf("r", 3));
         System.out.println(name.lastIndexOf("rry", 4));
         System.out.println(name.equals("Harry"));
+        System.out.println(name.equalsIgnoreCase("HaRrY"));
     }
 }
