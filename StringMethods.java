@@ -23,5 +23,6 @@ public class StringMethods {
         System.out.println(nonTrimmedString.trim());
         System.out.println(name.substring(3));
         System.out.println(name.substring(1,4));
+        System.out.println(name.replace("r", "p"));
     }
 }
