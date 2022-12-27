@@ -6,7 +6,6 @@
 // Class is a group of function, named same as filename, ex. Welcome.java
 // main is a default function.
 public class Welcome {
-
   public static void main(String args[]) {
     System.out.println("Hello, World!");
     System.out.println(
