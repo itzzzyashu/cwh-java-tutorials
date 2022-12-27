@@ -8,6 +8,7 @@ public class Sum {
     System.out.println(sum);
   }
 }
+
 // In this program DataType, Variable, Literal is defined as:
 // ----------------------------------
 // | DataType | Variable | Literal  |
