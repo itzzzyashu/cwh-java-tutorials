@@ -12,11 +12,13 @@ public class StringMethods {
         // %c for char,
         // %s for string.
         // System.out.printf("The values of a is %d and value of b is %f", a,b);
+        // or
+        // System.out.format("The values of a is %d and value of b is %f", a,b);
+        System.out.println(name);
         System.out.println(name.length());
         System.out.println(name.toLowerCase());
         System.out.println(name.toUpperCase());
-        System.out.println(name);
-        // or
-        // System.out.format("The values of a is %d and value of b is %f", a,b);
+        String nonTrimmedString = "     Trimmed String   ";
+        System.out.println(nonTrimmedString.trim());
     }
 }
