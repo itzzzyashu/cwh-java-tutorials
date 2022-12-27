@@ -32,5 +32,8 @@ public class StringMethods {
         System.out.println(name.lastIndexOf("rry", 4));
         System.out.println(name.equals("Harry"));
         System.out.println(name.equalsIgnoreCase("HaRrY"));
+        System.out.println("Hello this is a \"Backslash squence character\"");
+        System.out.println("Hello \t Tab");
+        System.out.println("Hello \n NewLine");
     }
 }
