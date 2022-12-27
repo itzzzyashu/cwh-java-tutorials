@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class UserInput {
-
   public static void main(String[] args) {
     int num, num2;
     Scanner sc = new Scanner(System.in);
