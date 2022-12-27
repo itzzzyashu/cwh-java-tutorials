@@ -26,6 +26,7 @@ public class StringMethods {
         System.out.println(name.replace("r", "p"));
         System.out.println(name.startsWith("Ha"));
         System.out.println(name.endsWith("ry"));
+        System.out.println(name.charAt(4));
 
     }
 }
