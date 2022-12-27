@@ -1,6 +1,5 @@
 // Here is the program to print the Sum of 3 numbers.
-public class Sum3 {
-
+public class Sum {
   public static void main(String args[]) {
     int a = 3;
     int b = 4;
