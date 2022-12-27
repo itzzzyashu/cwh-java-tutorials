@@ -1,6 +1,6 @@
 package com.company;
 
-public class PrecedenceAssociativityOperators {
+public class Precedence_Associativity {
     public static void main(String[] args) {
         // Precedence & Associativity
 

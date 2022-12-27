@@ -1,4 +1,4 @@
-public class ResultingDataType {
+public class Resulting_DataType {
   public static void main(String[] args) {
       /* byte x = 5;
       int y = 6;

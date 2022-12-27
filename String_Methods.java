@@ -1,4 +1,4 @@
-public class StringMethods {
+public class String_Methods {
     public static void main(String[] args) {
         // String name = new String("Harry");
         //str index -  012345
