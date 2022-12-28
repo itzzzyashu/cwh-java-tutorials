@@ -1,7 +1,7 @@
 // Write a program to ask user to enter 5 subject's marks and calculate the percentage.
 import java.util.Scanner;
 
-public class Percentage {
+public class StudentPercentage {
   public static void main(String[] args) {
     System.out.println("PERCENTAGE CALCULATOR");
     Scanner s = new Scanner(System.in);
