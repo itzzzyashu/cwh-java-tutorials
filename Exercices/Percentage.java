@@ -1,3 +1,4 @@
+// Write a program to ask user to enter 5 subject's marks and calculate the percentage.
 import java.util.Scanner;
 
 public class Percentage {
