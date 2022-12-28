@@ -1,4 +1,5 @@
 public class Rational_Logical {
+  
   public static void main(String[] args) {
     boolean a, b;
     a = true;
