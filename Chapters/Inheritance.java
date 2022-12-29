@@ -1,29 +1,13 @@
 class Base {
   int x;
-  public int getX() {
-    System.out.println("Getting");
-    return x;
-  }
-  public void setX(int x) {
-    System.out.println("I\'m in base Setting x now.");
-    this.x = x;
-  }
-  public void printMe() {
-    System.out.println("I\'m a constructor.");
-  }
+  public int getX() { return x; }
+  public void setX(int x) { this.x = x; }
 }
 
 class Derived extends Base {
   public int y;
-  public int getY() {
-    return y;
-  }
-  public void setY(int y) {
-    this.y = y;
-  }
-  public void printMe() {
-    System.out.println("I\'m a method.");
-  }
+  public int getY() { return y; }
+  public void setY(int y) { this.y = y; }
 }
 
 public class Inheritance {
