@@ -21,6 +21,6 @@ public class TriangleSideTypes {
         double s = (a+b+c)/2; // (10+10+10)/2 = 15
         System.out.println("Triangle Side Type:  " + type); // Equilateral
         System.out.println("Triangle Parimeter:  " + (a+b+c)); // 10+10+10 = 30
-        System.out.println("Triangle Area:       " + Math.sqrt(s*(s - a)*(s - b)*(s - c)));// (15(15-10)(15-10)(15-10)) = 43.3012701892        
+        System.out.println("Triangle Area:       " + Math.sqrt(s*(s - a)*(s - b)*(s - c))); // (15(15-10)(15-10)(15-10)) = 43.3012701892        
       }
 }
